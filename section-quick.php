@@ -6,10 +6,6 @@
 ?>
 
 <li <?php post_class() ?>>
-	<a class="entry-thumbnail" rel="bookmark" href="<?php the_permalink() ?>">
-		<?php echo ar2_get_thumbnail( 'section-thumb', false, array( 'class' => 'section-thumb' ) ) ?>
-		<span class="entry-comments"><?php echo get_comments_number() ?></span>
-	</a>
 	<?php if ( get_post_format() !== false ) : ?>
 	<span class="entry-format" style="float: right"><?php echo get_post_format_string( get_post_format() ) ?></span>
 	<?php endif ?>
@@ -23,7 +19,7 @@
 		</div>
 		<?php echo get_the_excerpt() ?>
 		<p><a class="more-link" href="<?php the_permalink() ?>" title="<?php printf( __('Permalink to %s', 'ar2'), get_the_title() ) ?>">
-		<?php _e('Continue Reading', 'ar2') ?>
+		<?php _e('阅读全文', 'ar2') ?>
 		</a></p>
 	</div>	
 </li>
