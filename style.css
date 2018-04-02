@@ -1147,6 +1147,7 @@ nav ul.menu li a:only-child:after {
 	font-size: 120%;
 }
 .posts-quick .entry-summary {
+	font-size: 105%;
 	line-height: 1.6em;
 	margin-bottom: .3em;
 	color: #666;
@@ -1275,7 +1276,7 @@ article .entry-social {
 	margin: 0 auto;
 }
 article .entry-content {
-	font-size: 105%;
+	font-size: 115%;
 	margin: 0 0 20px;
 	color: #555;
 	border-bottom: 1px solid #EEE;
